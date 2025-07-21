@@ -1,0 +1,52 @@
+
+header {
+  position: sticky;
+  background-color: #ad0000;
+  padding: 10px 0; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+
+#title {
+  text-align: center;
+  font-size: 49px;
+  color: white;
+  margin: 0;
+}
+
+#subtitle {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  margin: 0;
+}
+
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body#background {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* hauteur minimale 100% de la fenêtre */
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  background-color: #170999;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#copyright {
+  font-size: 22px;
+  color: white;
+  margin: 10;
+}
+
